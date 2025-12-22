@@ -11,13 +11,13 @@ where not exists (
 
 -- Query 3: WHERE
 select * from vehicles as v 
-where v.status = 'available' and v.type = 'car'
+where v.status = 'available' and v.type = 'car';
 
 select * from vehicles as v 
-where v.status = 'available' and v.type = 'bike'
+where v.status = 'available' and v.type = 'bike';
 
 select * from vehicles as v 
-where v.status = 'available' and v.type = 'truck'
+where v.status = 'available' and v.type = 'truck';
 
 -- Query 4:  GROUP BY and HAVING
 select v.name as vehicle_name, count(*) as total_bookings from bookings as b

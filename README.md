@@ -37,13 +37,13 @@ where not exists (
 ```sql
 select 
 select * from vehicles as v 
-where v.status = 'available' and v.type = 'car'
+where v.status = 'available' and v.type = 'car';
 
 select * from vehicles as v 
-where v.status = 'available' and v.type = 'bike'
+where v.status = 'available' and v.type = 'bike';
 
 select * from vehicles as v 
-where v.status = 'available' and v.type = 'truck'
+where v.status = 'available' and v.type = 'truck';
 ```
 
 
